@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script>
+      document.addEventListener(
+        "mousemove", 
+        function(info){
+          let new_ele = document.createElement("p");
+          new_ele.text = `[${info[x]}, ${info[y]}]`;
+          document.body.appendChild(new_ele);
+        }
+      )
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
